@@ -75,3 +75,18 @@ h2{
     margin-left: 15px;
     font-size: 18px;
 }
+
+.ingredients li,
+.instructions li{
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.ingredients li::marker{
+    color: #E76F00;
+}
+
+.instructions li::marker{
+    color: #4CAF50;
+    font-weight: bold;
+}
