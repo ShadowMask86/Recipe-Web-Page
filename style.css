@@ -19,6 +19,7 @@ body{
     padding: 15px;
     max-width: 550px;
     width: 90%;
+    height: fit-content;
     border-radius: 15px;
     box-shadow: 0 15px 35px rgba(231, 111, 0, 0.15);
     transition: transform .3s ease, box-shadow .3s ease;
@@ -38,6 +39,7 @@ body{
     object-fit: cover;
     object-position: center;
     border-radius: 15px;
+    padding-top: 5px;
 }
 
 /* Recipe Content */
@@ -81,6 +83,10 @@ h2{
     color: #6D4C41;
     margin-left: 15px;
     font-size: 18px;
+}
+
+.instructions{
+    padding-bottom: 10px;
 }
 
 .ingredients li,
